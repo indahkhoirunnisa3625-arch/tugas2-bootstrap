@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background-color: #1a1a1a;
+        }
+        .hero-section {
+            background: linear-gradient(rgba(66, 131, 230, 0.8), rgba(26, 45, 73, 0.8)), 
+                        url(asset/otomotif\ 1.jpg);
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+        .main-card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        .side-card {
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        .registration-status {
+            background-color: #212529;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .icon-box {
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+        .badge-custom {
+            border-radius: 50px;
+            padding: 5px 12px;
+            font-size: 12px;
+        }
+        footer {
+            background-color: #1a1a1a;
+            color: #888;
+            padding: 20px 0;
+            font-size: 14px;
+        }
+    </style>
+
+</head>
+<body>
+     <!-- navigasi -->
+<nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: #1a1e21;">
+  <div class="container">
+    <!-- Brand/Logo -->
+    <img src="asset/logoschool.png" width="38" height="33" class="d-inline-block align-text-top">
+    <a class="navbar-brand fw-bold" href="#">SMK DIGITAL</a>
+    <!-- Tombol HP -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Menu -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto text-uppercase" style="font-size: 0.85rem;">
+        <li class="nav-item"><a class="nav-link px-3 active text-white" href="index.html #mengapa-kami">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link px-3 active text-white" href="index.html #visimisi">Visi Misi</a></li>
+        <li class="nav-item"><a class="nav-link px-3 active text-white" href="index.html #tabel">Data Siswa</a></li>
+        <li class="nav-item">
+          <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle bg-dark" type="button" data-bs-toggle="dropdown" aria-expanded="false">Jurusan</button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="pplg.html">PPLG</a></li>
+            <li><a class="dropdown-item" href="tjkt.html">TJKT</a></li>
+            <li><a class="dropdown-item" href="kuliner.html">KULINER</a></li>
+            <li><a class="dropdown-item" href="busana.html">BUSANA</a></li>
+            <li><a class="dropdown-item" href="otomotif.html">OTOMOTIF</a></li>
+          </ul>
+          </div></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- header -->
+  <header class="hero-section">
+        <div class="container px-4">
+            <h1 class="fw-bold mb-3">TEKNIK OTOMOTIF</h1>
+            <p class="lead mx-auto" style="max-width: 800px;">
+                Jurusan yang membekali peserta didik dengan pengetahuan, keterampilan, dan sikap profesional agar mampu bekerja di bidang otomotif yang terus berkembang. Selain itu, siswa juga diajarkan bagaimana melakukan diagnosis kerusakan kendaraan serta melakukan perawatan secara tepat dan efisien.
+        </div>
+    </header>
+<!-- isi -->
+  <main class="container my-5">
+        <div class="row g-4">
+            
+            <div class="col-lg-8">
+                <div class="card main-card p-4 p-md-5">
+                    <h2 class="fw-bold mb-4">Membangun Masa Depan Melalui Teknologi Otomotif</h2>
+                    <p class="text-secondary mb-5">
+                      Teknik Otomotif merupakan program keahlian yang mempelajari tentang perawatan, perbaikan, dan teknologi kendaraan bermotor. Siswa akan mempelajari sistem mesin, kelistrikan kendaraan, hingga teknologi otomotif modern. Program ini bertujuan membekali siswa dengan pengetahuan, keterampilan, dan sikap profesional agar siap bekerja di industri otomotif.
+                    </p>
+
+                    <div class="row mb-5">
+                        <div class="col-md-6 mb-3">
+                            <div class="d-flex align-items-start">
+                                <div class="icon-box bg-primary bg-opacity-10 text-primary me-3">
+                                    <i class="bi bi-car-front"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold mb-1">Teknisi Kendaraan</h5>
+                                    <small class="text-muted">Mempelajari perawatan mesin, sistem bahan bakar, sistem pendingin, dan perbaikan kendaraan.</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="d-flex align-items-start">
+                                <div class="icon-box bg-success bg-opacity-10 text-success me-3">
+                                    <i class="bi bi-ev-front"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold mb-1">Diagnostik Kendaraan</h5>
+                                    <small class="text-muted">Menganalisis kerusakan kendaraan menggunakan alat scanner dan teknologi otomotif modern.</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="mb-5">
+
+                    <h4 class="fw-bold mb-4">Fasilitas Unggulan</h4>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                             Bengkel Praktik Otomotif
+                            <span class="badge bg-primary badge-custom">4 Bengkel</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                             Peralatan Servis Kendaraan Lengkap
+                            <span class="badge bg-primary badge-custom">Service Industri</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                           Sertifikasi Industri Otomotif
+                            <span class="badge bg-primary badge-custom">Voucher Tersedia</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card side-card mb-4">
+                    <div class="registration-status">
+                        <h5 class="mb-0 fw-bold">Status Pendaftaran</h5>
+                    </div>
+                    <div class="card-body p-4">
+                        <div class="d-flex justify-content-between mb-2">
+                            <small class="fw-bold">Kuota Terisi</small>
+                            <small class="fw-bold">90%</small>
+                        </div>
+                        <div class="progress mb-4" style="height: 10px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 90%"></div>
+                        </div>
+                         <a href="#" class="btn btn-primary w-100 fw-bold py-2 mv-2 mt-4 mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal">DAFTAR SEKARANG</a>
+           <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header bg-primary">
+                <h1 class="modal-title fs-5 bg-primary text-white" id="exampleModalLabel"><i class="bi bi-person-fill-add" style="margin-right: 10px;"></i>Tambah Siswa Baru</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+           <div class="mb-3">
+            <label for="disabledTextInput" class="form-label fw-bold">Nama Lengkap</label>
+            <input type="text" id="disabledTextInput" class="form-control" placeholder="Masukkan Nama Anda...">
+            </div>
+            <div class="mb-3">
+            <label for="disabledTextInput" class="form-label fw-bold">NIS</label>
+            <input type="text" id="disabledTextInput" class="form-control" placeholder="Masukkan NIS Anda...">
+            </div>
+             <div class="mb-3">
+            <label for="disabledTextInput" class="form-label fw-bold">TTL</label>
+            <input type="text" id="disabledTextInput" class="form-control" placeholder="Contoh : Semarang, 23 Juni 2009">
+            </div>
+            <div class="mb-3">
+            <label for="disabledSelect" class="form-label fw-bold">Jenis Jalur Pendaftaran</label>
+            <select id="disabledSelect" class="form-select" placeholder="Pilih Jalur...">
+                <option>Pilih Jalur...</option>
+                <option>Prestasi</option>
+                <option>Domisili</option>
+                <option>Tes</option>
+                <option>Mutasi</option>
+            </select>
+            </div>
+            <div class="mb-3">
+            <label for="formFile" class="form-label fw-bold">Foto Siswa</label>
+            <input class="form-control" type="file" id="formFile">
+            <div id="passwordHelpBlock" class="form-text">
+            Format: JPG, PNG (Maks 5MB)
+            </div>
+            </div>
+            </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                <button type="button" class="btn btn-primary">Daftar</button>
+            </div>
+            </div>
+        </div>
+        </div>
+                        <a href=index.html #jurusan>
+                        <button class="btn btn-light w-100 text-muted"><i class="bi bi-arrow-left me-2"></i>Kembali</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card side-card">
+                    <img src="asset/otomotif 2.jpg" class="card-img-top" alt="Siswa">
+                    <div class="card-body p-4">
+                        <p class="fst-italic text-secondary">
+                            "Belajar di TEKNIK OTOMOTIF SMK Digital membuka wawasan saya tentang dunia otomotif."
+                        </p>
+                        <p class="fw-bold mb-0">- Rara, Alumni 2024</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+<!-- footer -->
+  <footer class="text-center">
+        <div class="container">
+            <p class="mb-0">© 2026 SMK DIGITAL. Seluruh Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
